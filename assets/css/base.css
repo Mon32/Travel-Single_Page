@@ -1,0 +1,44 @@
+:root{
+    --white-color:#fff;
+    --back-ground:#cecece;
+
+}
+
+*{
+    box-sizing: inherit;
+}
+
+ html{
+        font-size: 62.5%;
+        line-height: 1.6rem;
+        font-family: 'Playfair Display', serif;
+        box-sizing: border-box;
+      } 
+      
+.grid{
+        width: 1200px;
+        max-width: 100%;
+        margin: 0 auto;    
+    }
+.grid__row{
+    display: flex;
+    position: relative;
+}
+.grid__column-8{
+    width: 66.667%;
+    padding: 0 10px;
+    margin: 80px 0;
+}
+.grid__column-4{
+    width: 33.334%;
+    padding: 0 10px;
+    margin: 80px 0;
+}
+.grid__column-6{
+    width: 50%;
+    padding: 0 10px;
+    margin: 80px 0;
+}
+.grid__half{
+    width: 50%;
+}

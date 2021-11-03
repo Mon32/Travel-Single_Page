@@ -1,0 +1,214 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0;
+    
+}
+.header-label{
+  font-weight: 400;
+  font-style: italic;
+  font-size: 3.2rem;
+  color:#828282 ;
+  margin-left: 200px;
+  
+}
+.header-navigation{
+    display: flex;
+    list-style: none;
+   margin-right: 50px;
+}
+.header-navigation__item{
+  margin: 0 30px;
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.header-navigation__item-link{
+  text-decoration: none;
+  color:#828282 ;
+  padding: 10px 20px ;
+}
+.header-navigation__item-link:hover{
+    color: black;
+}
+.book-trip{
+    height: 398px;
+    background-color: #bdbdbd;
+    text-align: center;
+    position: relative;
+}
+.book-trip__description{
+  font-weight: 400;
+  font-style: italic;
+  font-size: 5.2rem;
+  color:#fff ;
+  line-height: 300px;
+}
+.book-trip__link{
+    position: absolute;
+    text-decoration: none;
+   display: block; 
+   background-color: #D7D7D7;
+   height:47px ;
+   width: 305px;  
+   line-height: 47px;
+   top: 50%;
+   right: calc(50% - 150px);
+   color:#4f4f4f ;
+   font-family: Lato;
+   font-weight: 400;
+   font-size: 1.4rem;
+   letter-spacing: 4px;
+    
+}
+.book-trip__link:hover{
+  background-color: #838282;
+  color: #fff;
+}
+.background-big{
+  height: 500px;
+  background-color: #bdbdbd;
+}
+.book-trip__small{
+    position:relative;
+    height: 500px;
+    background-color:#f8f8f8;
+    
+}
+.book-trip__small-name{
+    font-family: Lato;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.4rem;
+   position: absolute;
+   left: 133px;
+   top: 90px;
+}
+.book-trip__small-label{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    position: absolute;
+    left: 126px;
+    top: 133px;
+}
+.book-trip__link-small{
+    text-align: center;
+    position: absolute;
+    right: 42px;
+    top: 406px;
+}
+.grid__row::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #bdbdbd;
+    bottom: 0;
+}
+.text-description{
+    font-size: 5.2rem;
+    font-weight: 400;
+    text-align: center; 
+    font-style: italic; 
+    margin-top: 100px;  
+}
+.quotes{
+    font-size: 5.2rem;
+    font-weight: 400; 
+    font-style: italic;
+    color: #828282;
+    margin-left: 10px;
+}
+.text-intro{
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic; 
+    color: #828282;
+    margin-left: 10px;
+}
+.product-img{
+    height: 465px;
+    background-color:#E0E0E0 ;
+}
+.text-info{
+   height: 135px; 
+   background-color:#fafafa ;
+   position: relative;
+}
+.text-product{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #828282;
+    margin:0 0 0 30px;
+    padding: 10px 0;
+}
+.product__read-more{
+    position: absolute;
+    top: 60px;
+    text-decoration: none;
+    padding: 30px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:#333333 ;
+    
+}
+.product-img-small{
+    height: 252px;
+    background-color: #E0E0E0;
+}
+.product-describe{
+    height: 252px;
+    background-color: #f5f5f5;
+    position: relative;
+}
+.horizontal{
+    display: flex;
+}
+.product-describe-heading{
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: #828282;
+}
+.product-describe-content{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.6rem;
+    display: block;
+    position: absolute;
+    top:112px;
+    left: 17px;
+    color: #828282;
+}
+.pull-down{
+    position: absolute;
+    top: 193px;
+    padding: 17px;
+
+}
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #bdbdbd;
+    padding: 20px;
+}
